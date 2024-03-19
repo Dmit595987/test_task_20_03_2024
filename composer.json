@@ -1,0 +1,9 @@
+{
+    "name": "29575/test_task_20_03_2024",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}

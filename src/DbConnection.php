@@ -6,6 +6,7 @@ use PDOException;
 
 class DbConnection
 {
+    // создаём в контструкторе все параметры подключения к БД
     private string $host;
     private string $dbname;
     private string $username;
@@ -29,7 +30,7 @@ class DbConnection
         $this->password = $password;
     }
 
-    // создаём подключение к БД
+    // создаём подключение к БД через метод getConnection()
     public function getConnection()
     {
         $dsn = "mysql:host={$this->host};dbname={$this->dbname};charset={$this->charset}";

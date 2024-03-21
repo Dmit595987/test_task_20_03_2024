@@ -44,4 +44,4 @@ composer install
 php index.php
 ```
 
-Теперь бегите проверять свою БД.
+Вся работа скрипта происходит в классе DbCorrector.php
